@@ -30,7 +30,7 @@ public class enemy : MonoBehaviour
     {
         GetComponent<NavMeshAgent>().destination = positions[position].transform.position;
 
-        if (position < 4)
+        if (position < 3)
         {
             position++;
         }
